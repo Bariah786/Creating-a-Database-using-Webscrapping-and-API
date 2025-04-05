@@ -49,7 +49,7 @@ select * from weather;
 -- Creating table Airports
 create table airports
 (City varchar(255),
-City_id int,
+City_id int not null,
 Airport_Name varchar(255),
 Short_Name varchar(255),
 ICAO varchar(255),
